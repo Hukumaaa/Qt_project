@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QMessageBox>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -14,6 +15,33 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+
+private slots:
+    void on_pushButton_4_clicked();
+
+    void on_pushButton_3_clicked();
+
+    void on_pushButton_2_pressed();
+
+    void on_pushButton_5_clicked();
+
+    void on_pushButton_6_clicked();
+
+    void on_pushButton_clicked();
+
+    void on_action_triggered();
+
+    void on_action_3_triggered();
+
+    void on_action_4_triggered();
+
+    void on_action_5_triggered();
+
+    void on_action_7_triggered();
+
+    void on_action_8_triggered();
+
+    void on_action_10_triggered();
 
 private:
     Ui::MainWindow *ui;
